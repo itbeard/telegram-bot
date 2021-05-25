@@ -12,7 +12,7 @@ namespace MyTelegram.Bot
         static public ITelegramBotClient botClient;
         static void Main(string[] args)
         {
-            botClient = new TelegramBotClient("990278792:AAEAXEiFS85MtmkJ0FM7gTqI48YHOqUdHEo");
+            botClient = new TelegramBotClient("ТУТ МОГ БЫТЬ ВАШ ТОКЕН");
             var me = botClient.GetMeAsync().Result;
             Console.WriteLine(
               $"Hello, World! I am user {me.Id} and my name is {me.FirstName} username {me.Username}.");
